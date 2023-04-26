@@ -1,45 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T04:18:11.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.2" etag="nGf-2zqG9wzacWkKNXWJ" type="github">
-  <diagram name="Страница 1" id="Ubpn6th9CkrC0pqKBq3T">
+<mxfile host="app.diagrams.net" modified="2023-04-26T04:21:18.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.2" etag="6MWbFvfRuA5Tizv9qTR9" type="github">
+  <diagram name="Страница 1" id="vW63RPtkCZ-0gXMF1yBH">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Подача заявки" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="214" width="122" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="Допущение к экзаменам" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="176" y="102" width="197" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="Результаты" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="209" y="204" width="132" height="132" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="Зачисление" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="224" y="404" width="102" height="33" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="Проверка документов" style="curved=1;startArrow=none;endArrow=block;exitX=0.49766262242051423;exitY=1.0121212583599668;entryX=0.501090558047222;entryY=-0.0060605713815400095;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7" value="Прохождение вступительных экзаменов" style="curved=1;startArrow=none;endArrow=block;exitX=0.2919473489963012;exitY=1.0060606869784268;entryX=-0.0024443828698360558;entryY=0.09792041589988866;" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="149" y="169" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8" value="Неудовлетворительно" style="curved=1;startArrow=none;endArrow=block;exitX=0.9981237758289684;exitY=0.09792041589988866;entryX=0.7102337670981427;entryY=1.0060606869784268;" edge="1" parent="1" source="4" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="400" y="169" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9" value="Удовлетворительно" style="curved=1;startArrow=none;endArrow=block;exitX=0.49783969647956616;exitY=0.9975378730080344;entryX=0.4972043130912033;entryY=0.0022726925936612215;" edge="1" parent="1" source="4" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
