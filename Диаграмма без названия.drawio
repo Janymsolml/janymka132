@@ -1,106 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T14:31:42.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.3.721 Yowser/2.5 Safari/537.36" version="21.2.7" etag="hZVXbVh8jtM0ZGN_yySr" type="github">
-  <diagram name="Страница 1" id="VwKbPya5AVy8FqQGNQSZ">
+<mxfile host="app.diagrams.net" modified="2023-05-03T16:40:46.433Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaBrowser/23.3.3.721 Yowser/2.5 Safari/537.36" version="21.2.7" etag="xUrvNpgWKUhifTt0a1fT" type="github">
+  <diagram name="Страница 1" id="bPydmYqOm4j_wAnpJtHA">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry width="150" height="862" as="geometry" />
+        <mxCell id="2" value="Administrator" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="424" width="115" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Journal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="345" width="150" height="862" as="geometry" />
+        <mxCell id="3" value="Student" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="79" y="102" width="71" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="636" width="150" height="862" as="geometry" />
+        <mxCell id="4" value="Teacher" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="397" y="102" width="73" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Opens the electronic journal" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="5" value="Grades" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="489" y="305" width="65" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Assignments" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="188" y="204" width="103" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="1. Add students" style="curved=1;startArrow=none;endArrow=block;exitX=-0.0013076616370159646;exitY=0.7474309404904004;entryX=0.49641294882331094;entryY=-0.0060605713815400095;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="258" y="109" />
+              <mxPoint x="114" y="68" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6" value="Asks for login credentials" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3" target="2">
+        <mxCell id="8" value="2. Assign teachers" style="curved=1;startArrow=none;endArrow=block;exitX=0.3603046724280434;exitY=1.0121212583599668;entryX=0.49276020102304957;entryY=-0.0060605713815400095;" edge="1" parent="1" source="2" target="4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="258" y="163" />
+              <mxPoint x="433" y="68" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7" value="Enters login credentials" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="9" value="3. Manage grades" style="curved=1;startArrow=none;endArrow=block;exitX=0.7495344102430043;exitY=1.0121212583599668;entryX=0.7374841000112471;entryY=0.012121316158410275;" edge="1" parent="1" source="2" target="5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="258" y="217" />
+              <mxPoint x="569" y="68" />
+              <mxPoint x="569" y="271" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="Verifies login credentials" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="10" value="4. View assignments" style="curved=1;startArrow=none;endArrow=block;exitX=0.3041701691711999;exitY=1.0060606869784268;entryX=-0.0011300762880195692;entryY=0.017220008515253807;" edge="1" parent="1" source="3" target="6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="576" y="271" />
+              <mxPoint x="73" y="169" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9" value="Returns verification" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="4" target="3">
+        <mxCell id="11" value="5. Submit homework" style="curved=1;startArrow=none;endArrow=block;exitX=0.9933429771745709;exitY=0.9347041789468999;entryX=0.49935535319800517;entryY=-0.012121142763080019;" edge="1" parent="1" source="3" target="6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="576" y="325" />
+              <mxPoint x="239" y="169" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="Grants access to the journal" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3" target="2">
+        <mxCell id="12" value="6. View class list" style="curved=1;startArrow=none;endArrow=block;exitX=0.3138936711095671;exitY=1.0060606869784268;entryX=0.9890779320515043;entryY=-0.012121142763080019;" edge="1" parent="1" source="4" target="6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="258" y="379" />
+              <mxPoint x="393" y="169" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="11" value="Views the journal content" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="13" value="7. Grade assignments" style="curved=1;startArrow=none;endArrow=block;exitX=0.6716267309365319;exitY=1.0060606869784268;entryX=0.24972774362607267;entryY=0.012121316158410275;" edge="1" parent="1" source="4" target="5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="258" y="433" />
+              <mxPoint x="473" y="169" />
+              <mxPoint x="473" y="271" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="12" value="Makes changes or additions to content" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="14" value="8. Export reports" style="curved=1;startArrow=none;endArrow=block;exitX=0.9902405372032752;exitY=0.25819593565641913;entryX=0.9976053818412449;entryY=0.8890613043032041;" edge="1" parent="1" source="5" target="2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="258" y="487" />
+              <mxPoint x="713" y="271" />
+              <mxPoint x="713" y="68" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="Updates the content" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="15" value="9. View grades" style="curved=1;startArrow=none;endArrow=block;exitX=0.49935535319800517;exitY=1.0000001155968867;entryX=-0.003028693565955529;entryY=0.34139783520778233;" edge="1" parent="1" source="6" target="5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="576" y="541" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="14" value="Returns confirmation of update" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="4" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="576" y="595" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="15" value="Displays confirmation of update" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="3" target="2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="258" y="649" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="16" value="Logs out" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="258" y="703" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="17" value="Logs out confirmation message" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="3" target="2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="258" y="757" />
+              <mxPoint x="239" y="271" />
             </Array>
           </mxGeometry>
         </mxCell>
